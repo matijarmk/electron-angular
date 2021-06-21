@@ -1,0 +1,27 @@
+{
+  // See http://go.microsoft.com/fwlink/?LinkId=827846
+  // for the documentation about the extensions.json format
+  "recommendations": [
+    "Angular.ng-template",
+    "christian-kohler.path-intellisense",
+    "esbenp.prettier-vscode",
+    "hookyqr.beautify",
+    "kisstkondoros.vscode-gutter-preview",
+    "ktriek.ng-bootstrap-snippets",
+    "matijarmk.dotnet-core-commands",
+    "mrmlnc.vscode-scss",
+    "msjsdiag.debugger-for-chrome",
+    "Zignd.html-css-class-completion",
+    "eamodio.toggle-excluded-files",
+    "steoates.autoimport",
+    "coenraads.bracket-pair-colorizer",
+    "johnpapa.angular2",
+    "pkief.material-icon-theme",
+    "ghaschel.vscode-angular-html",
+    "eamodio.gitlens",
+    "ghaschel.vscode-angular-html",
+    "dbaeumer.vscode-eslint",
+    "eg2.vscode-npm-script",
+    "salbert.comment-ts"
+  ]
+}

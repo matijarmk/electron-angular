@@ -1,0 +1,39 @@
+{
+  "productName": "SignIt",
+  "appId": "com.electron.SignIt",
+  "directories": {
+    "output": "release/"
+  },
+  "extraResources": ["./dist/assets/**"],
+  "files": [
+    "**/*",
+    "!**/*.ts",
+    "!.github",
+    "!.vscode",
+    "!.npmrc",
+    "!*.md",
+    "!package.json",
+    "!package-lock.json",
+    "!src/",
+    "!angular.json",
+    "!tsconfig*.json",
+    "!.eslintrc.json",
+    "!karma.conf.js",
+    "!*.map"
+  ],
+  "portable": {
+    "splashImage": "dist/assets/images/icons/electron.bmp"
+  },
+  "win": {
+    "icon": "dist/assets/images/icons",
+    "target": ["portable"]
+  },
+  "mac": {
+    "icon": "dist/assets/images/icons",
+    "target": ["dmg"]
+  },
+  "linux": {
+    "icon": "dist/assets/images/icons",
+    "target": ["AppImage"]
+  }
+}

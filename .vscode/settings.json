@@ -1,0 +1,54 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": true,
+  "beautify.language": {
+    "html": ["htm", "html"]
+  },
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.exclude": {
+    ".vscode": false,
+    "e2e": false,
+    "node_modules": false,
+    ".editorconfig": false,
+    ".gitignore": false,
+    "karma.conf.js": false,
+    "package-lock.json": false,
+    "package.json": false,
+    "angular.json": false,
+    "*/main.ts": false,
+    "*/test.ts": false,
+    "dist": false,
+    ".jsbeautifyrc": false,
+    ".prettierrc": false,
+    "src/environments": false,
+    "src/assets/environments": false,
+    ".eslintrc.json": false,
+    "src/polyfills.ts": false,
+    "tsconfig.json": false,
+    "tsconfig.app.json": false,
+    "tsconfig.spec.json": false,
+    "tsconfig.serve.json": false,
+    "**/*.gitkeep": false,
+    "README.md": false,
+    "electron-builder.json": false,
+    "main.js": false,
+    "main.js.map": false,
+    ".browserslistrc": false,
+    "extra-webpack.config.js": false
+  },
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "workbench.colorCustomizations": {}
+}
